@@ -36,18 +36,6 @@ if (yCollisionID != noone) {
 	
 	// "Friction" workaround
 	dx=lerp(dx,0,0.1)
-	
-	// Don't vibrate
-	if (abs(dx)<=0.01) {
-		// Stop movement
-		dx=0;
-		dy=0;
-		
-		// Set up destruction
-		if(alarm[0]<0){
-			alarm[0]=30*3
-		}
-	}
 } else onGround = false;
 
 // Apply position
