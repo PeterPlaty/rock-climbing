@@ -36,7 +36,6 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"oBallJump","path":"objects/oBallJump/oBallJump.yy",},},
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},},
     {"id":{"name":"ENUM","path":"scripts/ENUM/ENUM.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},

@@ -19,7 +19,6 @@
     {"name":"Ball objects","order":7,"path":"folders/Objects/Ball objects.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"oBallJump","order":2,"path":"objects/oBallJump/oBallJump.yy",},
     {"name":"sBall","order":3,"path":"sprites/sBall/sBall.yy",},
     {"name":"oObjectBounce","order":2,"path":"objects/oObjectBounce/oObjectBounce.yy",},
     {"name":"Approach","order":1,"path":"scripts/Approach/Approach.yy",},
