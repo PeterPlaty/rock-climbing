@@ -19,10 +19,9 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sBall","order":3,"path":"sprites/sBall/sBall.yy",},
-    {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
-    {"name":"oObject","order":2,"path":"objects/oObject/oObject.yy",},
+    {"name":"oObject","order":1,"path":"objects/oObject/oObject.yy",},
     {"name":"oBall","order":5,"path":"objects/oBall/oBall.yy",},
   ],
 }
