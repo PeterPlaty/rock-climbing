@@ -8,7 +8,7 @@ event_inherited();
 // -- INPUT DETECTION --
 
 // Horizontal
-var hInput = keyboard_check(vk_right) - keyboard_check(vk_left)
+var hInput = keyboard_check(INPUT.right) - keyboard_check(INPUT.left)
 
 if (hInput != 0) {
 	// Move horizontally
@@ -16,7 +16,7 @@ if (hInput != 0) {
 } else dx *= 0.75;
 
 // Jump
-if (keyboard_check_pressed(vk_space) && onGround){
+if (keyboard_check_pressed(INPUT.jump) && onGround){
 	
 	// Check if not stuck
 	if !(place_meeting(x, y, oWall)){
