@@ -42,6 +42,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oObjectBounce","path":"objects/oObjectBounce/oObjectBounce.yy",},},
+    {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oBallGravity","path":"objects/oBallGravity/oBallGravity.yy",},},
