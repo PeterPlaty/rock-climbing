@@ -11,8 +11,8 @@ if(keyboard_check_released(INPUT.hold)){
 	} else {
 		// Throw
 		var _ball=instance_create_layer(x,y,"Instances",oBallGravity);
-		_ball.dx=5*sign(oPlayer.dx);
-		_ball.dy=3;
+		_ball.dx=6*sign(oPlayer.dx);
+		_ball.dy=2;
 	}
 	
 	instance_destroy();

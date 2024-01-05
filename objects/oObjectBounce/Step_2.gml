@@ -12,7 +12,7 @@ if (xCollisionID != noone) {
 	// Horizontal
 	if (dx < 0) {
 		// Is moving left
-		_x = xCollisionID.x + 16;
+		_x = xCollisionID.x + xCollisionID.sprite_width + 16;
 	} else if (dx > 0) {
 		// Is moving right
 		_x = xCollisionID.x - 16;
@@ -25,7 +25,7 @@ if (yCollisionID != noone) {
 	// Vertical
 	if (dy < 0) {
 		// Is moving up
-		_y = yCollisionID.y + 16;
+		_y = yCollisionID.y + yCollisionID.sprite_height + 16;
 	} else if (dy >= 0) {
 		// Is moving down
 		_y = yCollisionID.y - 16;
