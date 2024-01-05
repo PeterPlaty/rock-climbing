@@ -1,33 +1,5 @@
 /// @description Perfect collisions
 
-/*
-// Horizontal
-for (var i=0; i<=floor(dx); i++) {
-    if(!place_meeting(x+(i*sign(dx)),y,oWall)){
-		x+=sign(dy);
-	} else {
-		dx=0;
-		break;
-	}
-}
-
-// Vertical
-for (var i=0; i<=floor(abs(dy)); i++) {
-    if(!place_meeting(x,y+(i*sign(dy)),oWall)){
-		y+=sign(dy);
-	} else {
-		dy=0;
-		break;
-	}
-}
-
-// Push back in bounds if stuck in wall
-if(place_meeting(x,y,oWall)){
-	for(i=0, i<200, i++){
-		
-	}
-}*/
-
 // Collision check
 var _x = x+dx;
 var _y = y+dy;
@@ -69,19 +41,6 @@ if (yCollisionID != noone) {
 		Deal with it, cry about it
 	*/
 } else onGround = false;
-
-
-
-/* Room boundaries
-if (_x <= 0) _x = 0;
-if (_x >= 640-8) _x = 640-8;
-
-
-if (_y >= 300) {
-	_y = 300;
-	onGround = true;
-}
-*/
 
 // Apply position
 x = _x;
