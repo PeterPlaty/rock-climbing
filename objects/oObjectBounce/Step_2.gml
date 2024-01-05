@@ -39,8 +39,14 @@ if (yCollisionID != noone) {
 	
 	// Don't vibrate
 	if (abs(dx)<=0.01) {
+		// Stop movement
 		dx=0;
 		dy=0;
+		
+		// Set up destruction
+		if(alarm[0]<0){
+			alarm[0]=30*3
+		}
 	}
 } else onGround = false;
 
