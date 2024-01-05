@@ -16,12 +16,14 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Coordinators","order":6,"path":"folders/Objects/Coordinators.yy",},
+    {"name":"Ball objects","order":7,"path":"folders/Objects/Ball objects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sBall","order":3,"path":"sprites/sBall/sBall.yy",},
+    {"name":"oObjectBounce","order":2,"path":"objects/oObjectBounce/oObjectBounce.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oBallGravity","order":1,"path":"objects/oBallGravity/oBallGravity.yy",},
     {"name":"oObject","order":1,"path":"objects/oObject/oObject.yy",},
-    {"name":"oBall","order":5,"path":"objects/oBall/oBall.yy",},
   ],
 }

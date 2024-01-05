@@ -7,6 +7,7 @@ event_inherited();
 
 // -- INPUT DETECTION --
 
+#region Movement
 // Horizontal
 var hInput = keyboard_check(INPUT.right) - keyboard_check(INPUT.left)
 
@@ -27,3 +28,10 @@ if (keyboard_check_pressed(INPUT.jump) && onGround){
 		onGround = false;
 	}
 }
+#endregion
+
+#region Ball
+if (keyboard_check_pressed(INPUT.hold)){
+	instance_create_layer(x,y-32,"Instances",oBall)
+}
+#endregion
