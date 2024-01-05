@@ -15,13 +15,14 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Coordinators","order":6,"path":"folders/Objects/Coordinators.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sBall","order":3,"path":"sprites/sBall/sBall.yy",},
     {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
-    {"name":"sPlayerA","order":2,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"oObject","order":2,"path":"objects/oObject/oObject.yy",},
-    {"name":"oPlayerTemplate","order":4,"path":"objects/oPlayerTemplate/oPlayerTemplate.yy",},
+    {"name":"oBall","order":5,"path":"objects/oBall/oBall.yy",},
   ],
 }
