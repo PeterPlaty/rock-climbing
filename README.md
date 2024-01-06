@@ -7,9 +7,14 @@ The ball can be spawned Gimmick-like by holding X. As long as the player holds X
 The player can move horizontally (left-right keys) and can do a short hop.
 
 TO DO:
-- Add slopes to the game, and slopes "physics"
-- Create basic level to playtest, with basic graphics
-- If there's time, add swirly animation for the stars
+- Calculate bounce angle of the ball
+- Push in bounds from slope
+- Remove jump when stabilized
+
+IF THERE'S TIME:
+- Fall if at the edge
+- Add swirly animation for the stars
+
 
 TO KEEP AN EYE ON:
 - Sometimes, the player falls through the ball without jumping. Worst case scenario: do precise collisions for the ball
