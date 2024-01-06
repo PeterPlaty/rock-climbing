@@ -1,3 +1,3 @@
-/// @description Set fading
+/// @description Set up object
 
-fading=0;
+alarm[0] = 10;
