@@ -17,4 +17,6 @@ if (playerX!=0 && playerY!=0){
 		_star.speed = 3;
 		_star.direction = 30*(i+1)
 	}
+	
+	dy = -3;
 }
