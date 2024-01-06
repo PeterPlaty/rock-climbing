@@ -39,6 +39,7 @@
   "resources": [
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},},
     {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},},
+    {"id":{"name":"PushInBounds","path":"scripts/PushInBounds/PushInBounds.yy",},},
     {"id":{"name":"ENUM","path":"scripts/ENUM/ENUM.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},

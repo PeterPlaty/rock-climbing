@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sBall","order":2,"path":"sprites/sBall/sBall.yy",},
+    {"name":"PushInBounds","order":2,"path":"scripts/PushInBounds/PushInBounds.yy",},
     {"name":"oObjectBounce","order":2,"path":"objects/oObjectBounce/oObjectBounce.yy",},
     {"name":"Approach","order":1,"path":"scripts/Approach/Approach.yy",},
     {"name":"sStarSmall","order":4,"path":"sprites/sStarSmall/sStarSmall.yy",},
