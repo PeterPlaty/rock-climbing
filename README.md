@@ -7,9 +7,16 @@ The ball can be spawned Gimmick-like by holding X. As long as the player holds X
 The player can move horizontally (left-right keys) and can do a short hop.
 
 TO DO:
+- Fix ball collision, somewhat
+- Rudimentary slope collisions
+- Add Facing variable + Facing sprite
+- Entire map
+- If I'm not tired, add tileset
+- Create .exe
+
+POST TEST:
 - Calculate bounce angle of the ball
 - Push in bounds from slope
-- Remove jump when stabilized
 
 IF THERE'S TIME:
 - Fall if at the edge
