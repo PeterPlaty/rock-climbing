@@ -7,7 +7,6 @@ The ball can be spawned Gimmick-like by holding X. As long as the player holds X
 The player can move horizontally (left-right keys) and can do a short hop.
 
 TO DO:
-- Entire map
 - If I'm not tired, add tileset
 - Create .exe
 
