@@ -30,6 +30,9 @@ if (keyboard_check_pressed(INPUT.jump) && onGround){
 }
 #endregion
 
+// Change facing direction
+if (sign(dx)!=0) facing=sign(dx);
+
 #region Ball
 if (keyboard_check_pressed(INPUT.hold)){
 	instance_create_layer(x,y-32,"Instances",oBall)

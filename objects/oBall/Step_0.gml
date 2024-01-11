@@ -13,7 +13,7 @@ if(keyboard_check_released(INPUT.hold)){
 	} else {
 		// Throw
 		var _ball=instance_create_layer(x,y,"Instances",oBallGravity);
-		_ball.dx=8*sign(oPlayer.dx);
+		_ball.dx=8*oPlayer.facing;
 		_ball.dy=1.65;
 	}
 	

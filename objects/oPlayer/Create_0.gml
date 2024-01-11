@@ -18,3 +18,6 @@ if (playerX!=0 && playerY!=0){
 		_star.direction = 30*(i+1)
 	}
 }
+
+// -- Set info
+facing = 1; // can be 1 or -1 for right and left respectively
