@@ -6,15 +6,24 @@ The ball can be spawned Gimmick-like by holding X. As long as the player holds X
 
 The player can move horizontally (left-right keys) and can do a short hop.
 
-TO DO:
-- If I'm not tired, add tileset
-- Create .exe
+IMPORTANT TO DO:
+- Jump on ball pogo-like
+- Push ball in bounds only horizontally (not vertically)
+- Slope touch makes player fall only if *descending*
+- "Tutorial" to teach controls
+- Push ball in bounds properly
+- Build-up the throw (can't spam)
+- Press C while bouncing gives extra boost
 
-POST TEST:
+TO DO:
+- Jump also with space
+- Audio & Particles
+- If I'm not tired, add tileset
 - Calculate bounce angle of the ball
-- Push in bounds from slope
 
 IF THERE'S TIME:
+- Menu
+- Remappable controls
 - Fall if at the edge
 - Add swirly animation for the stars
 
