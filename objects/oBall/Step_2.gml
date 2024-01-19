@@ -11,7 +11,7 @@ if(keyboard_check(INPUT.down)){
 		x=lerp(x,oPlayer.x,0.5);
 		y=lerp(y,oPlayer.y+32,0.5);
 		
-		if(place_meeting(x,y,oWall)){
+		if(place_meeting(x,y,oWall) and oPlayer.dy>0){
 			// Boost player up 
 			// (code from oBallGravity)
 			oPlayer.dy=-10;
