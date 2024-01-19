@@ -43,7 +43,7 @@
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},},
     {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},},
     {"id":{"name":"sSlope","path":"sprites/sSlope/sSlope.yy",},},
-    {"id":{"name":"PushInBounds","path":"scripts/PushInBounds/PushInBounds.yy",},},
+    {"id":{"name":"PushOutOf","path":"scripts/PushOutOf/PushOutOf.yy",},},
     {"id":{"name":"ENUM","path":"scripts/ENUM/ENUM.yy",},},
     {"id":{"name":"rmTest_Physics","path":"rooms/rmTest_Physics/rmTest_Physics.yy",},},
     {"id":{"name":"oPlayerPhysics","path":"objects/oPlayerPhysics/oPlayerPhysics.yy",},},

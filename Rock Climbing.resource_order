@@ -25,7 +25,7 @@
   "ResourceOrderSettings": [
     {"name":"sBall","order":2,"path":"sprites/sBall/sBall.yy",},
     {"name":"sSlope","order":5,"path":"sprites/sSlope/sSlope.yy",},
-    {"name":"PushInBounds","order":2,"path":"scripts/PushInBounds/PushInBounds.yy",},
+    {"name":"PushOutOf","order":2,"path":"scripts/PushOutOf/PushOutOf.yy",},
     {"name":"rmTest_Physics","order":1,"path":"rooms/rmTest_Physics/rmTest_Physics.yy",},
     {"name":"oPlayerPhysics","order":1,"path":"objects/oPlayerPhysics/oPlayerPhysics.yy",},
     {"name":"sPlayerLeft","order":1,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
