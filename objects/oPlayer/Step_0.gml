@@ -34,8 +34,21 @@ if (keyboard_check_pressed(INPUT.jump) && onGround){
 if (sign(dx)!=0) facing=sign(dx);
 
 #region Ball
-if (keyboard_check_pressed(INPUT.hold)){
-	instance_create_layer(x,y-32,"Instances",oBall)
+
+// Handle timer
+if (keyboard_check_pressed(INPUT.hold)){ alarm[0]=30; }
+if (keyboard_check_released(INPUT.hold)){ alarm[0]=-1; }
+
+// Handle stars
+if(alarm[0]%10==0){
+	for(var i=0; i<8; i++){
+		var _x = x;
+		var _y = y-32;
+		
+		var _star = instance_create_layer(_x,_y,"Instances",oStar);
+		_star.direction=i*45;
+		_star.speed=3
+	}
 }
 #endregion
 

@@ -17,12 +17,13 @@ IMPORTANT TO DO:
 - Slope touch makes player fall only if *descending*
 - "Tutorial" to teach controls
 - Push ball in bounds properly
-- Build-up the throw (can't spam)
 - Press C while bouncing gives extra boost
+- Ball vibrates on the ground, stop it.
+- Audio
+- Add facing to ball placement
 
 Sum-up:
 - Better collisions
-- No spam
 - New jump mechanic (pogo jump)
 - Be kind
 - Checkpoint flags for accessibility
