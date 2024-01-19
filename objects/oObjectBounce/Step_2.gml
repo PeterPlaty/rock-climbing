@@ -38,10 +38,12 @@ if(stopBouncing==false){
 			onGround = true;
 		}
 	
-		if(dy<0.1){
-			dy *= -0.6;
-		} else {
+		if(dy<0.9){
+			// Don't bounce
 			alarm[0]=4;
+		} else {
+			// Bounce
+			dy *= -0.6;
 		}
 		
 		// "Friction" workaround

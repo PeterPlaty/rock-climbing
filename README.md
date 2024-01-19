@@ -12,12 +12,9 @@ Golden rules:
 - Give a sense of progress every time they move forward
 
 IMPORTANT TO DO:
-- Push ball in bounds only horizontally (not vertically)
 - Slope touch makes player fall only if *descending*
 - "Tutorial" to teach controls
-- Push ball in bounds properly
 - Press C while bouncing gives extra boost
-- Ball vibrates on the ground, stop it.
 - Audio
 - Add facing to ball placement
 
@@ -30,7 +27,6 @@ TO DO:
 - Jump also with space
 - Audio & Particles
 - If I'm not tired, add tileset
-- Calculate bounce angle of the ball
 
 IF THERE'S TIME:
 - VERY basic menu
@@ -39,6 +35,7 @@ IF THERE'S TIME:
 - Remappable controls
 - Fall if at the edge
 - Add swirly animation for the stars
+- Calculate bounce angle of the ball
 
 
 TO KEEP AN EYE ON:
