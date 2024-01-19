@@ -6,6 +6,11 @@ The ball can be spawned Gimmick-like by holding X. As long as the player holds X
 
 The player can move horizontally (left-right keys) and can do a short hop.
 
+Golden rules:
+- No tight fits at the beginning, the player will think it won't work
+- Limited failure when starting
+- Give a sense of progress every time they move forward
+
 IMPORTANT TO DO:
 - Jump on ball pogo-like
 - Push ball in bounds only horizontally (not vertically)
@@ -14,6 +19,13 @@ IMPORTANT TO DO:
 - Push ball in bounds properly
 - Build-up the throw (can't spam)
 - Press C while bouncing gives extra boost
+
+Sum-up:
+- Better collisions
+- No spam
+- New jump mechanic (pogo jump)
+- Be kind
+- Checkpoint flags for accessibility
 
 TO DO:
 - Jump also with space
