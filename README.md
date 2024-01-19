@@ -12,7 +12,6 @@ Golden rules:
 - Give a sense of progress every time they move forward
 
 IMPORTANT TO DO:
-- Jump on ball pogo-like
 - Push ball in bounds only horizontally (not vertically)
 - Slope touch makes player fall only if *descending*
 - "Tutorial" to teach controls
@@ -24,7 +23,6 @@ IMPORTANT TO DO:
 
 Sum-up:
 - Better collisions
-- New jump mechanic (pogo jump)
 - Be kind
 - Checkpoint flags for accessibility
 
@@ -35,7 +33,9 @@ TO DO:
 - Calculate bounce angle of the ball
 
 IF THERE'S TIME:
-- Menu
+- VERY basic menu
+- Messages
+
 - Remappable controls
 - Fall if at the edge
 - Add swirly animation for the stars
